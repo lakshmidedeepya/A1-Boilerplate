@@ -199,7 +199,7 @@ def plot_results(f, inital_point, condition, f_vals, grad_norms, x_history):
         plt.quiver(x_hist[:-1, 0], x_hist[:-1, 1],#Start points
                     x_hist[1:, 0] - x_hist[:-1, 0],#X-direction change
                       x_hist[1:, 1] - x_hist[:-1, 1], # Y-direction change
-                   angles='xy', scale_units='xy', scale=1, color='blue', width=0.003)
+                   angles='xy', scale_units='xy', scale=1, color='blue', width=0.003,headwidth=8, headlength=10, headaxislength=7)
         
         
         # Highlight the start point
